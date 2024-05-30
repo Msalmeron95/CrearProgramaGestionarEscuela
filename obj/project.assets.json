@@ -110,11 +110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\briya\\Downloads\\New folder\\CrearProgramaGestionarEscuelaDemo\\CrearProgramaGestionarEscuela\\SchoolManagementConsole.csproj",
+      "projectUniqueName": "C:\\Users\\briya\\Source\\Repos\\Msalmeron95\\CrearProgramaGestionarEscuela\\SchoolManagementConsole.csproj",
       "projectName": "SchoolManagementConsole",
-      "projectPath": "C:\\Users\\briya\\Downloads\\New folder\\CrearProgramaGestionarEscuelaDemo\\CrearProgramaGestionarEscuela\\SchoolManagementConsole.csproj",
+      "projectPath": "C:\\Users\\briya\\Source\\Repos\\Msalmeron95\\CrearProgramaGestionarEscuela\\SchoolManagementConsole.csproj",
       "packagesPath": "C:\\Users\\briya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\briya\\Downloads\\New folder\\CrearProgramaGestionarEscuelaDemo\\CrearProgramaGestionarEscuela\\obj\\",
+      "outputPath": "C:\\Users\\briya\\Source\\Repos\\Msalmeron95\\CrearProgramaGestionarEscuela\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\briya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,6 +125,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -173,7 +174,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

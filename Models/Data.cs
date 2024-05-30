@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace SchoolManagementSystem.Models
 {
-    class Data
+    public class Data
     {
-        private static Dictionary<string, string> contenido;
+        public static Dictionary<string, string> contenido;
 
         public Data()
         {
@@ -26,7 +26,6 @@ namespace SchoolManagementSystem.Models
             AgregarElemento("Informática", "El estudio de la computación y la tecnología de la información, que incluye la programación, la informática, la ingeniería de software, entre otros aspectos.");
         }
 
-
         public void AgregarElemento(string clave, string valor)
         {
             contenido[clave] = valor;
@@ -44,7 +43,6 @@ namespace SchoolManagementSystem.Models
             }
         }
 
-
         public static void VercontenidoClases()
         {
             var table = new Table();
@@ -59,7 +57,6 @@ namespace SchoolManagementSystem.Models
 
             AnsiConsole.Write(table);
         }
-
 
         public static void AgregarActulizarContenido()
         {
@@ -85,8 +82,5 @@ namespace SchoolManagementSystem.Models
                 Console.WriteLine("Se ha agregado nuevo contenido para " + selectedMateria + ".");
             }
         }
-
-
-
     }
 }
